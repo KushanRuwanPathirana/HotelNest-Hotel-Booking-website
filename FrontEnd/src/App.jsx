@@ -3,13 +3,14 @@ import Navbar from './Components/Navbar'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import Home from './Pages/Home';
 import Footer from './Components/Footer';
-import AllRooms from './Pages/AllRooms.jsx';
+import AllRooms from './Pages/AllRooms';
+
 
 const App = () => {
 
   const isOwnerPath = useLocation().pathname.includes("owner");
   return (
-    <div className=''>
+    <div>
       {!isOwnerPath && <Navbar/>}
       <div className='min-h-[70vh]'>
           <Routes>
