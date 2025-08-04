@@ -4,10 +4,7 @@ import { Route, Routes, useLocation } from 'react-router-dom'
 import Home from './Pages/Home';
 import Footer from './Components/Footer';
 import AllRooms from './Pages/AllRooms';
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 
 const App = () => {
 
@@ -21,6 +18,7 @@ const App = () => {
               <Route path='/rooms' element={<AllRooms/>} />
           </Routes>
       </div>
+      <Footer/>
     </div>
   )
 }
