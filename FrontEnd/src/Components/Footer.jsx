@@ -17,7 +17,7 @@ const Footer = () => {
                         <img src={assets.linkendinIcon} alt="linkendin-icon" className='w-6'/>
                     </div>
                 </div>
-
+{/* 7777777 */}
                 <div>
                     <p className='font-playfair text-lg text-gray-800'>COMPANY</p>
                     <ul className='mt-3 flex flex-col gap-2 text-sm'>
