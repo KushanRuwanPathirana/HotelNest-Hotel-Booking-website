@@ -5,6 +5,9 @@ import Home from './Pages/Home';
 import Footer from './Components/Footer';
 import AllRooms from './Pages/AllRooms';
 <<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 const App = () => {
 
